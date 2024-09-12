@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "11b0cc7d-5e3a-4dbb-a833-d5f6f3b678f2",
+  "packageName": "com.microsoft.teams.extension",
+  "developer": {
+    "name": "Daniela",
+    "websiteUrl": "https://deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app",
+    "privacyUrl": "https://deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app/privacy",
+    "termsOfUseUrl": "https://deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app/terms"
+  },
+  "name": {
+    "short": "Mi App2 Expo",
+    "full": "Mi Aplicación Expo para Microsoft Teams"
+  },
+  "description": {
+    "short": "Una aplicación Expo integrada con Teams",
+    "full": "Esta es una aplicación creada con Expo y React Native, integrada con Microsoft Teams para demostrar las capacidades de desarrollo multiplataforma."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "index",
+      "name": "Mi App Expo",
+      "contentUrl": "https://deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app",
+      "websiteUrl": "https://deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app"
+  ],
+  "webApplicationInfo": {
+    "id": "11b0cc7d-5e3a-4dbb-a833-d5f6f3b678f2",
+    "resource": "https://deaa-2800-bf0-62-10f-4572-66c4-10ae-5788.ngrok-free.app"
+  }
+}
